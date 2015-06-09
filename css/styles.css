@@ -1,0 +1,191 @@
+body, html {
+	font-family: 
+	font-size: 14px;
+}
+.navbar-inverse {
+	background: rgba(0, 0, 0, 0.7);
+	margin-bottom: 0px;
+	width: 100%;
+}
+.navbar-gradient {
+	background: linear-gradient(to right, rgba(95, 127, 218, 0.7), rgba(95, 191, 225, 0.7), rgba(128, 225, 232, 0.7));
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;.
+}
+.navbar-collapse {
+	height: 150px;
+}
+
+.navbar .navbar-collapse .navbar-right {
+	font-size: 1.1em;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+.navbar-inverse .navbar-nav>li>a  {
+	color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #959595;
+}
+.navbar-toggle  {
+	margin-top: 20px;
+}
+.jumbotron {
+	height: 720px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.aboutBackground {
+	background-image: url("../00_Homepage-v1-assets/hero-photo.png");
+}
+.jumboImg {
+	display: block;	
+	margin: auto;
+}
+.centered {
+	text-align: center;
+}
+.jumbotron .container {
+	margin-top: 150px;
+}
+.jumbotron .container .jumboHeader {
+	color: #fff;
+	text-align: center;
+	font-size: 3.75em;
+}
+.jumbotron .container .jumboText {
+	color: #fff;
+	text-align: center;
+	font-size: 2.25em;
+
+}
+.btn-orange {
+	margin: auto;
+	margin-top: 100px;
+	display: block;
+	background-color: #EF7F2F;
+	letter-spacing: 1px;
+	padding: 30px 65px;
+	font-size: 1.125em;
+}
+.blackHeader {
+	color: #1a1a1a;
+	font-size: 2.5em;
+	margin-bottom: 30px;
+}
+.commentText {
+	color: #959595;
+	font-size: 1.57em;	
+	line-height: 36px;
+	font-weight: 200;
+
+}
+.aboutSection {
+	padding-top: 70px;
+	padding-bottom: 108px;
+}
+.subheading {
+	font-size: 1.28em;
+	color: #1a1a1a;
+	font-weight: 600;
+}
+.smallMargin {
+	margin-top: 30px;
+	margin-bottom: 18px;
+}
+.smallCommentText {
+	font-size: 1.28em;
+	font-weight: 200;
+	color: #959595;
+	line-height: 30px;
+}
+.icons {
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+.container .btn-orange-edge {
+	background-color: #fff;
+	border: 3px solid #FF9C00;
+	color: #ff9c00;
+	font-size: 1.28em;
+	line-height: 2.34em;
+	padding-left: 54px;
+	padding-right: 54px;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+.testimonialBackground {
+	background-image: url("../00_Homepage-v1-assets/testimonial-photo1.png");
+}
+.jumbotron .bigQuote {
+	font-size: 3.5em;
+	text-align: center;
+	font-weight: 100;
+	color: #fff;
+}
+.footer-nav {
+	color: #acacac;
+	line-height: 30px;
+	padding-top: 56px;
+	padding-bottom: 70px;
+}
+.footer-nav ul {
+	list-style-type: none;
+	padding-left: 0px;
+
+}
+.footer-nav ul li a {
+	color: #acacac;
+	font-size: 1.1em;
+	line-height: 1.8em;
+}
+body .footer-nav .social ul li {
+	display: inline-block;
+	width: 20%;
+}
+.serviceItems {
+	margin-bottom: 35px;
+}
+.v-middle {
+	vertical-align: middle;
+	display: inline-block;
+	
+}
+.moreMargin {
+	margin-top: 118px;
+}
+.team {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.profilePic {
+	margin-top: 50px;	
+}
+.icon-container {
+	width: 100%;
+	height: 100%;
+}
+.fill-height {
+	height: 100%;	
+}
+@media (max-width: 500px) {
+	body, html {
+		font-size: 10px;
+	}
+	
+}
+@media (max-width: 992px) {
+	.serviceItems {
+		text-align: center;
+	}
+}
+@media (min-width: 768px) {
+	.navbar-inverse, .navbar-collapse, .navbar-fixed-top {
+		height: 80px;
+	} 
+}
